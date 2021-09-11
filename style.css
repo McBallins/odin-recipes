@@ -3,34 +3,8 @@ html, body{
     padding: 0;
     background-color: teal;
   }
-.top {
-    background-color: #e0b0ff;
-    display: flex;
-    flex-direction: column;
-    border-width: 0px;
-}
-h1 {
-    text-align: center;
-}
-ol {
-    margin-left: 40vw;
-}
-.pcbimg {
-    align-self: center;
-    width: 25vw;
-    display: block;
-    margin: auto;
-}
-body
-{
- padding:0;
- margin:0;
-}  
 .moist {
     color: darkblue;
     font-size: 60px;
     text-align: center;
-}
-p {
-    margin: auto;
 }
