@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -9,8 +16,13 @@ html, body{
     text-align: center;
 }
 .containerss {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     justify-items: center;
 }
 .ssimg, .pcssimg, .pcbimg {
@@ -37,9 +49,13 @@ a:after {
     text-align: center;
 }
 .ingredients {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 95vw;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     text-align: left;
 }
 h1, h3, footer {
@@ -59,10 +75,14 @@ h1 {
     padding: 1em;
 }
 .ingredients {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 95vw;
     height: 25vh;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     text-align: left;
 }
 .left{
