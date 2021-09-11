@@ -19,16 +19,6 @@ html, body{
     display: block;
     margin: auto;
 }
-h1 {
-    text-align: center;
-}
-ol {
-    padding-top: .5em;
-    border-top: black solid 2px;
-}
-footer {
-    text-align:center ;
-}
 a {
     color: rgba(255,255,255,.75);
 }
@@ -38,18 +28,7 @@ a:hover {
 a:after {
     color: rgb(126, 126, 126);
 }
-h1 {
-    margin-top: 0px;
-}
-.bottom {
-    background-color: magenta;
-    border-radius: 10%;
-    width: 95vw;
-    margin: 16px auto 4px auto;
-    border: purple solid 4px;
-    text-align: center;
-}
-.align-left {
+.align-left, ol {
     text-align: left;
 }
 .desc {
@@ -66,6 +45,40 @@ h1 {
     justify-content: space-evenly;
     text-align: left;
 }
-ol {
+h1, h3, footer {
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    margin-top: 0px;
+}
+.bottom {
+    background-color: magenta;
+    border-radius: 25% 50% 10% 10%;
+    width: 95vw;
+    margin: 16px auto 4px auto;
+    border: purple solid 4px;
+    text-align: center;
+    padding: 1em;
+}
+.ingredients {
+    display: flex;
+    width: 95vw;
+    height: 25vh;
+    flex-direction: row;
     text-align: left;
-}s
+    flex-wrap: wrap;
+    border:black solid 5px;
+}
+.left{
+    width: auto;
+    border:black solid 5px;
+}
+.right {
+    width: auto;
+    border:black solid 5px;
+}
+.line {
+    border-top: black solid 2px;
+    padding-top: 1em;
+}
