@@ -47,6 +47,10 @@ h1 {
     width: 95vw;
     margin: 16px auto 4px auto;
     border: purple solid 4px;
+    text-align: center;
+}
+.align-left {
+    text-align: left;
 }
 .desc {
     background-color: rgb(204, 0, 255);
@@ -56,3 +60,12 @@ h1 {
     border: purple solid 4px;
     text-align: center;
 }
+.ingredients {
+    display: flex;
+    width: 95vw;
+    justify-content: space-evenly;
+    text-align: left;
+}
+ol {
+    text-align: left;
+}s
