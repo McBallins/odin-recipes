@@ -15,6 +15,7 @@ html, body{
 }
 .ssimg, .pcssimg, .pcbimg {
     border: purple solid 2px;
+    width: 30vw;
     display: block;
     margin: auto;
 }
